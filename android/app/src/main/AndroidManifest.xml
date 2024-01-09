@@ -9,6 +9,17 @@
       android:roundIcon="@mipmap/ic_launcher_round"
       android:allowBackup="false"
       android:theme="@style/AppTheme">
+      <meta-data
+      android:name="com.google.firebase.messaging.default_notification_icon"
+      android:resource="@drawable/notification_icon" />
+      <service android:name="io.invertase.firebase.messaging.ReactNativeFirebaseMessagingService">
+        <intent-filter>
+         <action android:name="com.google.firebase.MESSAGING_EVENT" />
+        </intent-filter>
+      </service>
+      <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyAMsj3XciOoq3FqRTJF1eNlNn-7hkJxSis" />
       <activity
         android:name=".MainActivity"
         android:label="@string/app_name"

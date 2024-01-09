@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "89593374076",
+    "project_id": "newchat-9113c",
+    "storage_bucket": "newchat-9113c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:89593374076:android:e49f1f641aa569f84bf0f9",
+        "android_client_info": {
+          "package_name": "com.uberclone"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA6ukReLpelkgIaBtoqJqEegR2eWC8sUco"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
